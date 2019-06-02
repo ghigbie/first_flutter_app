@@ -7,7 +7,7 @@ class MooApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       theme:  ThemeData(
-        primarySwatch: Colors.black
+        primarySwatch: Colors.teal
       ),
       home: HomePage(title: 'Welcome to Moo App!')
     );
